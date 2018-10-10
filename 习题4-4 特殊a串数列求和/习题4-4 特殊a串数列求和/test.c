@@ -15,20 +15,34 @@
 
 
 
-void the_num(int a, int n,int p[])
-{
-	p[0] = a;
-	for (int i = 0; i < n-1; i++)//这里i的范围要小于n-1,不能小于n。因为小于n会出现数组越界。p[0]保存的是第一个数
-	{
-		p[i + 1] = p[i] * 10 + a;
-	}
-}
+//void the_num(int a, int n,int p[])
+//{
+//	p[0] = a;
+//	for (int i = 0; i < n-1; i++)//这里i的范围要小于n-1,不能小于n。因为小于n会出现数组越界。p[0]保存的是第一个数
+//	{
+//		p[i + 1] = p[i] * 10 + a;
+//	}
+//}
 
 
 int main()
 {
 
-	int p[9] = { 0 };
+	int a, n;
+	int s = 0;
+	int num = 0;
+	scanf("%d %d", &a, &n);
+	for (int i = 0; i < n; i++)
+	{
+		num = num * 10 + a;
+		s += num;
+	}
+	printf("s = %d\n", s);
+
+
+
+	//数组方式保存前一项值
+	/*int p[9] = { 0 };
 	int a, n;
 	int s = 0;
 	scanf("%d %d", &a, &n);
@@ -38,9 +52,10 @@ int main()
 	{
 		s = s + p[i];
 	}
-	printf("s = %d\n", s);
+	printf("s = %d\n", s);*/
 
 
+	
 	//int a,n;
 	//int s = 0;
 	//scanf("%d %d", &a, &n);
