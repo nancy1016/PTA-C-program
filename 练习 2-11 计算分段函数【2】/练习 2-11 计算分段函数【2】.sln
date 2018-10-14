@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "练习 2-11 计算分段函数【2】", "练习 2-11 计算分段函数【2】\练习 2-11 计算分段函数【2】.vcxproj", "{14691F35-55E1-4DFE-BD5A-57001061F3EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14691F35-55E1-4DFE-BD5A-57001061F3EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{14691F35-55E1-4DFE-BD5A-57001061F3EA}.Debug|Win32.Build.0 = Debug|Win32
+		{14691F35-55E1-4DFE-BD5A-57001061F3EA}.Release|Win32.ActiveCfg = Release|Win32
+		{14691F35-55E1-4DFE-BD5A-57001061F3EA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
