@@ -13,21 +13,18 @@ int Ribbit_num(int N)
 	}
 	else
 	{
-		month += 1;
-		while (num <= N)
+		month += 2;
+		while (num2 < N)
 		{
 			num = num1 + num2;
 			num1 = num2;
 			num2 = num;
 			month++;
 		}
-		if (N > num1&&N < num)
-		{
-			month++;
-		}
 	}
 	return month;
 }
+
 
 int main()
 {
